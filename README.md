@@ -14,10 +14,10 @@ The Recipe Management System is a web-based application designed to help users s
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js
-- **Database:** MongoDB
-- **Framework:** Express.js
+- **Backend:** Java with Spring Boot (Latest version)
+- **Database:** MySQL (Latest version)
+- **Frontend:** HTML, CSS, JavaScript (Latest version)
+- **AWS Services:** Amazon S3 for image storage (Latest version)
 
 ## Features
 
@@ -27,7 +27,7 @@ The Recipe Management System is a web-based application designed to help users s
 - Tagging recipes with keywords.
 - Searching and filtering recipes.
 - Sharing recipes with others.
-- Adding images and notes to recipes.
+- Adding images and notes to recipes, stored in Amazon S3.
 
 ## Getting Started
 
@@ -35,10 +35,12 @@ The Recipe Management System is a web-based application designed to help users s
 
 Before you start, make sure you have the following software and tools installed:
 
-- Node.js (version X.X.X)
-- NPM (Node Package Manager)
-- MongoDB (Make sure it's up and running)
-- Git (optional but recommended)
+- Java
+- Spring Boot (Latest version)
+- MySQL database (Latest version)
+- NPM (Node Package Manager, for frontend, if applicable)
+- AWS account 
+- Git 
 
 ### Installation
 
@@ -46,3 +48,32 @@ Before you start, make sure you have the following software and tools installed:
 
    ```bash
    git clone https://github.com/yourusername/recipe-management.git
+
+   cd recipe-management
+
+npm install
+
+Usage
+Describe how users can use the Recipe Management System. Include information on:
+
+User registration and login.
+Adding new recipes.
+Searching for recipes.
+Managing and organizing recipes.
+Any other key features.
+Contributing
+We welcome contributions to the Recipe Management System. To contribute, follow these steps:
+
+Fork the repository on GitHub.
+Create a new branch for your feature or bug fix.
+Make your changes and test them thoroughly.
+Commit your changes with clear, concise messages.
+Push your branch to your fork on GitHub.
+Submit a pull request to the main repository.
+Please make sure your code follows our coding standards and includes appropriate tests. We'll review your pull request and provide feedback.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+If you have any questions or need assistance, please contact Jones Edwin.
